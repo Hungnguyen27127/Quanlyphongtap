@@ -1,0 +1,17 @@
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Quanlyphongtap.exe.config
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Quanlyphongtap.exe
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Quanlyphongtap.pdb
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Shared.v12.1.dll
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Win.Misc.v12.1.dll
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Win.v12.1.dll
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Shared.v12.1.xml
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Win.Misc.v12.1.xml
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\bin\Debug\Infragistics2.Win.v12.1.xml
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.csprojResolveAssemblyReference.cache
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.Form1.resources
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.Properties.Resources.resources
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.csproj.GenerateResource.Cache
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.csproj.CoreCompileInputs.cache
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.exe
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.pdb
+C:\Users\Hung Nguyen\Desktop\TT CSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.FrmMain.resources
