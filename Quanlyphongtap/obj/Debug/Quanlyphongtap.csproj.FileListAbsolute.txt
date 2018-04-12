@@ -165,3 +165,4 @@ C:\Users\Hung Nguyen\Desktop\TTCSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quan
 C:\Users\Hung Nguyen\Desktop\TTCSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.pdb
 C:\Users\Hung Nguyen\Desktop\TTCSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.DanhsachKhachhang.resources
 C:\Users\Hung Nguyen\Desktop\TTCSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.Loginform.resources
+C:\Users\Hung Nguyen\Desktop\TTCSDL\Quanlyphongtap\Quanlyphongtap\obj\Debug\Quanlyphongtap.Updatecs.resources

@@ -38,8 +38,6 @@
             this.dtpBirthdayCustomer = new System.Windows.Forms.DateTimePicker();
             this.txtPhoneCustomer = new DevExpress.XtraEditors.TextEdit();
             this.label6 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txtAdressCustomer = new DevExpress.XtraEditors.TextEdit();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -54,6 +52,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnAddCustomer = new System.Windows.Forms.Button();
+            this.txtgioitinhKH = new DevExpress.XtraEditors.TextEdit();
+            this.lblmaDichvu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -63,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtNameCustomer.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtgioitinhKH.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -109,11 +110,10 @@
             // groupControl1
             // 
             this.groupControl1.CaptionLocation = DevExpress.Utils.Locations.Top;
+            this.groupControl1.Controls.Add(this.txtgioitinhKH);
             this.groupControl1.Controls.Add(this.dtpBirthdayCustomer);
             this.groupControl1.Controls.Add(this.txtPhoneCustomer);
             this.groupControl1.Controls.Add(this.label6);
-            this.groupControl1.Controls.Add(this.checkBox2);
-            this.groupControl1.Controls.Add(this.checkBox1);
             this.groupControl1.Controls.Add(this.txtAdressCustomer);
             this.groupControl1.Controls.Add(this.label5);
             this.groupControl1.Controls.Add(this.label4);
@@ -154,26 +154,6 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Số Điện Thoại";
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(474, 56);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(40, 17);
-            this.checkBox2.TabIndex = 11;
-            this.checkBox2.Text = "Nữ";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(421, 56);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(47, 17);
-            this.checkBox1.TabIndex = 10;
-            this.checkBox1.Text = "Nam";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // txtAdressCustomer
             // 
             this.txtAdressCustomer.Location = new System.Drawing.Point(91, 84);
@@ -211,7 +191,7 @@
             // 
             // txtIdCustomer
             // 
-            this.txtIdCustomer.Location = new System.Drawing.Point(421, 23);
+            this.txtIdCustomer.Location = new System.Drawing.Point(462, 26);
             this.txtIdCustomer.MenuManager = this.barManager1;
             this.txtIdCustomer.Name = "txtIdCustomer";
             this.txtIdCustomer.Size = new System.Drawing.Size(157, 20);
@@ -222,9 +202,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(351, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mã Thẻ";
+            this.label2.Text = "Mã Khách Hàng";
             // 
             // label1
             // 
@@ -246,6 +226,7 @@
             // 
             // groupControl2
             // 
+            this.groupControl2.Controls.Add(this.lblmaDichvu);
             this.groupControl2.Controls.Add(this.dateTimePicker2);
             this.groupControl2.Controls.Add(this.cbxService);
             this.groupControl2.Controls.Add(this.label8);
@@ -302,6 +283,22 @@
             this.btnAddCustomer.UseVisualStyleBackColor = true;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
+            // txtgioitinhKH
+            // 
+            this.txtgioitinhKH.Location = new System.Drawing.Point(462, 52);
+            this.txtgioitinhKH.MenuManager = this.barManager1;
+            this.txtgioitinhKH.Name = "txtgioitinhKH";
+            this.txtgioitinhKH.Size = new System.Drawing.Size(100, 20);
+            this.txtgioitinhKH.TabIndex = 15;
+            // 
+            // lblmaDichvu
+            // 
+            this.lblmaDichvu.AutoSize = true;
+            this.lblmaDichvu.Location = new System.Drawing.Point(370, 40);
+            this.lblmaDichvu.Name = "lblmaDichvu";
+            this.lblmaDichvu.Size = new System.Drawing.Size(0, 13);
+            this.lblmaDichvu.TabIndex = 19;
+            // 
             // AddCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -329,6 +326,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtgioitinhKH.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -347,8 +345,6 @@
         private System.Windows.Forms.Label label7;
         private DevExpress.XtraEditors.TextEdit txtPhoneCustomer;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private DevExpress.XtraEditors.TextEdit txtAdressCustomer;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -361,5 +357,7 @@
         private System.Windows.Forms.ComboBox cbxService;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dtpBirthdayCustomer;
+        private DevExpress.XtraEditors.TextEdit txtgioitinhKH;
+        private System.Windows.Forms.Label lblmaDichvu;
     }
 }

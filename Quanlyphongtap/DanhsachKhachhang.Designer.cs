@@ -34,20 +34,18 @@
             // 
             // dgvListCustomer
             // 
-            this.dgvListCustomer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvListCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListCustomer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvListCustomer.Location = new System.Drawing.Point(0, 0);
             this.dgvListCustomer.Name = "dgvListCustomer";
-            this.dgvListCustomer.Size = new System.Drawing.Size(671, 397);
+            this.dgvListCustomer.Size = new System.Drawing.Size(830, 454);
             this.dgvListCustomer.TabIndex = 0;
             // 
             // DanhsachKhachhang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(671, 397);
+            this.ClientSize = new System.Drawing.Size(830, 454);
             this.Controls.Add(this.dgvListCustomer);
             this.Name = "DanhsachKhachhang";
             this.Text = "Thống kê khách hàng";

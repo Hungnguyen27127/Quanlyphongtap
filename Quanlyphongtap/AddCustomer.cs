@@ -55,24 +55,27 @@ namespace Quanlyphongtap
         }
 
 
-        string add;
+        string themmoi;
         private void btnAddCustomer_Click(object sender, EventArgs e)
         {
             try
             {
-                con = conn.Connection;
+                SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-EADVFVM\HUNG27127;Initial Catalog=QLPHONGTAPGYM;Persist Security Info=True;User ID=HungNguyen;Password=davinci123");
                 con.Open();
-                conn.OpenConn();
-                add = "insert into HOIVIEN values ('"+txtIdCustomer.Text+"','"+txtNameCustomer.Text+"','','','"+txtAdressCustomer.Text+"','"+txtPhoneCustomer.Text+"')";
-                SqlCommand cmd = new SqlCommand(add, con);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Thêm mới thành công","Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                themmoi = "insert into HOIVIEN values('"+txtIdCustomer.Text+"', '"+txtNameCustomer.Text+"', '"+dtpBirthdayCustomer.Text+"', '"+txtgioitinhKH.Text+"', '"+txtAdressCustomer.Text+"', '"+txtPhoneCustomer.Text+"')";
+                SqlCommand cmdAdd = new SqlCommand(themmoi, con);
+                cmdAdd.ExecuteNonQuery();
             }
             catch
             {
-                MessageBox.Show("Thêm mới thất bại","Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Thêm mới thất bại!");
             }
-           
+            finally
+            {
+                SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-EADVFVM\HUNG27127;Initial Catalog=QLPHONGTAPGYM;Persist Security Info=True;User ID=HungNguyen;Password=davinci123");
+                con.Close();
+
+            }
         }
     }
 }

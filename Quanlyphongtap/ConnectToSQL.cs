@@ -37,7 +37,7 @@ namespace Quanlyphongtap
         #region Constructor
         public ConnectToSQL()
         {
-            StrCon = @"Data Source= .\HUNG27127; ; Initial Catalog = QLPHONGTAPGYM; User = HungNguyen; Password = davinci27127 ";
+            StrCon = @"Data Source= .\HUNG27127; ; Initial Catalog = QLPHONGTAPGYM; User = HungNguyen; Password = davinci123 ";
             Conn = new SqlConnection(StrCon);
         }
         #endregion

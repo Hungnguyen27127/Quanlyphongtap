@@ -59,6 +59,29 @@ namespace Quanlyphongtap
 
         }
 
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            bool _isActive = false;
+            foreach (Form form in Application.OpenForms.OfType<Form>().ToList())
+            {
+                if(form.GetType() == typeof(Updatecs))
+                {
+                    form.Activate();
+                    _isActive = true;
+                }
+            }
+            if (!_isActive)
+            {
+                Updatecs updatecs = new Updatecs();
+                updatecs.MdiParent = this;
+                updatecs.Show();
+            }
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+        }
+
         public Main()
         {
             InitializeComponent();
