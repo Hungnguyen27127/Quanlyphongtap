@@ -24,8 +24,9 @@ namespace Quanlyphongtap
             {
                 SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-EADVFVM\HUNG27127;Initial Catalog=QLPHONGTAPGYM;Persist Security Info=True;User ID=HungNguyen;Password=davinci123");
                 con.Open();
-                string sqlstr = "select * from HOIVIEN";
+                string sqlstr = "getCustomerInfo";
                 SqlCommand cmd = new SqlCommand(sqlstr, con);
+                cmd.CommandType = CommandType.StoredProcedure;
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -81,6 +82,11 @@ namespace Quanlyphongtap
                 SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-EADVFVM\HUNG27127;Initial Catalog=QLPHONGTAPGYM;Persist Security Info=True;User ID=HungNguyen;Password=davinci123");
                 con.Close();
             }
+
+        }
+
+        private void dgvDanhsachKH_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

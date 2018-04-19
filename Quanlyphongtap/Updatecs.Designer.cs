@@ -213,6 +213,7 @@
             this.dgvDanhsachKH.Name = "dgvDanhsachKH";
             this.dgvDanhsachKH.Size = new System.Drawing.Size(492, 392);
             this.dgvDanhsachKH.TabIndex = 0;
+            this.dgvDanhsachKH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhsachKH_CellContentClick);
             this.dgvDanhsachKH.Click += new System.EventHandler(this.dgvDanhsachKH_Click);
             // 
             // Updatecs
