@@ -23,7 +23,7 @@ namespace Quanlyphongtap
         private void btnLogin_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            dt = con.GetData("select * from TAIKHOAN where TEN_USER = '"+txtUsername.Text+"' and MATKHAU = '"+txtPassword.Text+"'");
+            dt = con.GetData("select * from TAIKHOAN where TenDangNhap = '"+txtUsername.Text+"' and MatKhau = '"+txtPassword.Text+"'");
             if(dt.Rows.Count > 0)
             {
                 MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
