@@ -301,7 +301,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(899, 570);
             this.Controls.Add(this.menuStrip1);
-            this.IsMdiContainer = true;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chương trình quản lý phòng tập Gym";
