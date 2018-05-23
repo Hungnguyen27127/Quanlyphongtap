@@ -1,0 +1,34 @@
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csprojResolveAssemblyReference.cache
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Form_Main.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Form_dangnhap.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Properties.Resources.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.ThietBi.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.KhachHang.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.NhanVien.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.SanPham.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.TimKiem.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csproj.GenerateResource.Cache
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csproj.CoreCompileInputs.cache
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.ThanhToan.resources
+D:\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.exe.config
+D:\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.exe
+D:\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.pdb
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.exe
+D:\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.pdb
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.exe.config
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.exe
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\bin\Debug\QuanLyPhongTap.pdb
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csprojResolveAssemblyReference.cache
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Form_Main.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Form_dangnhap.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.Properties.Resources.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.ThanhToan.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.ThietBi.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.KhachHang.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.NhanVien.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.SanPham.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.UC.TimKiem.resources
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csproj.GenerateResource.Cache
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.csproj.CoreCompileInputs.cache
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.exe
+C:\Users\Hung Nguyen\Desktop\QuanLyPhongTap\QuanLyPhongTap\obj\Debug\QuanLyPhongTap.pdb
